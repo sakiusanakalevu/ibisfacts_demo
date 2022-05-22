@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: black;
-    color: lightgray;
+    background-color: blanchedalmond;
+    color: #080809;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,4 +17,51 @@ h1 {
     width: 20vw;
     display: block;
     margin: auto;
+}
+
+header {
+    background-color: cadetblue;
+}
+
+footer {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+section {
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+#ibis_pics {
+    background-color: darkorange;
+}
+
+p {
+    margin-top: 1vw;
+}
+
+ul {
+    margin-left: 1vw;
+}
+
+img {
+    width: 40%;
+    posi
+}
+
+#row1 {
+    width: 50%;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#row2 {
+    width: 50%;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: row-reverse;
 }
